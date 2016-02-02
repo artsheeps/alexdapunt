@@ -11,7 +11,7 @@ body {
   color: #2A6188;
   font-weight: 300;
   letter-spacing: .05em;
-  background: #a9eee6;
+  background: #EEF4F9;
   border: 20px solid #fff;
   padding: 20px; }
   @media screen and (max-width: 768px) {
@@ -281,7 +281,7 @@ pre {
     position: absolute;
     opacity: 0; }
   #dap-work .dap-work-item .dap-overlay-bg {
-    background: rgba(169, 238, 230, 0.9);
+    background: rgba(238, 244, 249, 0.9);
     top: 0px;
     bottom: 0px;
     right: 0px;

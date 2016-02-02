@@ -60,7 +60,7 @@ body {
 	color: $brand-gray-alt;
 	font-weight: 300;
 	letter-spacing: .05em;
-	background: #a9eee6;
+	background: #EEF4F9; //#a9eee6
 	border: 20px solid #fff;
 	padding: 20px;
 	@media screen and (max-width: $screen-sm) {
@@ -364,7 +364,7 @@ pre {
 			opacity: 0;
 		}
 		.dap-overlay-bg {
-			background: rgba(169,238,230,.9);
+			background: rgba(238,244,249,0.9); // rgba(169,238,230,.9);
 			top: 0px;
 			bottom: 0px;
 			right: 0px;
