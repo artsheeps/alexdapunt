@@ -99,9 +99,9 @@
 			setTimeout(function(){
 				$('.js-dap-more-works').slideToggle(400);
 				if ( $this.hasClass('active') ) {
-					$this.find('.js-dap-view-text').text('View Less');
+					$this.find('.js-dap-view-text').text('Weniger anzeigen');
 				} else {
-					$this.find('.js-dap-view-text').text('View All');
+					$this.find('.js-dap-view-text').text('Alle anzeigen');
 				}
 			}, 500);
 
