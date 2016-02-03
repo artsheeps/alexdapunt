@@ -89,6 +89,28 @@ body {
 			border-bottom:10px solid #fff;
 		}
 	}
+	.border-all-right{
+		border-right: 20px solid #fff;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 103;
+		@media screen and (max-width: $screen-sm) {
+			border-right:10px solid #fff;
+		}
+	}
+	.border-all-left{
+		border-left: 20px solid #fff;
+		height: 100vh;
+		position: fixed;
+		top: 0;
+		right: 0;
+		z-index: 103;
+		@media screen and (max-width: $screen-sm) {
+			border-left:10px solid #fff;
+		}
+	}
 }
 
 ::-webkit-selection { 
