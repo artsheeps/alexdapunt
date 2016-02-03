@@ -67,6 +67,28 @@ body {
 		border:10px solid #fff;
 		//padding:10px;
 	}
+	.border-all-top{
+		border-top: 20px solid #fff;
+		width: 100vw;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 103;
+		@media screen and (max-width: $screen-sm) {
+			border-top:10px solid #fff;
+		}
+	}
+	.border-all-bottom{
+		border-bottom: 20px solid #fff;
+		width: 100vw;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 103;
+		@media screen and (max-width: $screen-sm) {
+			border-bottom:10px solid #fff;
+		}
+	}
 }
 
 ::-webkit-selection { 
@@ -1119,7 +1141,7 @@ a > img {
 	background: rgba(0, 0, 0, .5);
 	padding: 10px;
 	border-radius: 6px;
-	z-index: 18;
+	z-index: 60;
 	> i {
 		position: relative;
 		display: block;

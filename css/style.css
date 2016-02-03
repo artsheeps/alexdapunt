@@ -16,6 +16,26 @@ body {
   @media screen and (max-width: 768px) {
     body {
       border: 10px solid #fff; } }
+  body .border-all-top {
+    border-top: 20px solid #fff;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 103; }
+    @media screen and (max-width: 768px) {
+      body .border-all-top {
+        border-top: 10px solid #fff; } }
+  body .border-all-bottom {
+    border-bottom: 20px solid #fff;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 103; }
+    @media screen and (max-width: 768px) {
+      body .border-all-bottom {
+        border-bottom: 10px solid #fff; } }
 
 ::-webkit-selection {
   color: #ffffff;
@@ -903,7 +923,7 @@ a > img.dap-align-center {
   background: rgba(0, 0, 0, 0.5);
   padding: 10px;
   border-radius: 6px;
-  z-index: 18; }
+  z-index: 60; }
   .dap-gotop > i {
     position: relative;
     display: block;
